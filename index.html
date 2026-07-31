@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>RB S. Lastimosa | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&amp;display=swap" rel="stylesheet"/>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;color:#fff;background:#000;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;background:url("image 007.jpg") center/cover no-repeat;z-index:-4}
+body:after{content:"";position:fixed;inset:0;background:url("001 Image.jpg") center/cover no-repeat,url("004 image.jpg") center/cover no-repeat;opacity:.18;z-index:-3;transition:opacity .8s ease}
+body.training-bg:after{background:url("0010 image.jpg") center/cover no-repeat}
+body.scrolled:after{opacity:.40}
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.65);z-index:-2}
+nav{position:fixed;top:0;width:100%;display:flex;justify-content:center;gap:20px;padding:18px;background:rgba(0,0,0,.85);z-index:999}
+nav a{color:#fff;text-decoration:none;font-family:'Black Ops One',cursive}
+.hero{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.hero h1,.card h2,.aboutText h2{font-family:'Black Ops One',cursive}
+.hero h1{font-size:70px}.hero p{font-size:20px}
+section{min-height:100vh;padding:120px 10%;display:flex;justify-content:center;align-items:center}
+.about,.card{background:rgba(255,255,255,.08);backdrop-filter:blur(10px);border-radius:20px;padding:40px;max-width:1100px;width:100%}
+.about{display:flex;gap:40px}.about img{width:340px;border:4px solid #fff;border-radius:15px}
+.aboutText p,.card p,.card li{font-size:20px;line-height:1.8;text-align:justify}
+.awards-images{display:flex;justify-content:center;gap:25px;flex-wrap:wrap;margin-top:30px}
+.awards-images img{width:400px;border:4px solid #fff;border-radius:15px}
+.hidden{opacity:0;transform:translateY(70px);transition:1s}.show{opacity:1;transform:none}
+footer{text-align:center;background:#000;padding:20px}
+
+.hobby-card{text-align:center;transition:transform .35s ease, box-shadow .35s ease, filter .35s ease;}
+.hobby-card img{width:220px;height:220px;object-fit:cover;border:4px solid white;border-radius:15px;cursor:pointer;transition:transform .35s ease, box-shadow .35s ease, filter .35s ease;}
+.hobby-card:hover{transform:translateY(-8px);}
+.hobby-card:hover img{transform:scale(1.08);box-shadow:0 0 25px rgba(255,255,255,.7);filter:brightness(1.15);}
+.hobby-card:active{transform:scale(.96);}
+.hobby-card h3{margin-top:10px;transition:color .3s ease;}
+.hobby-card:hover h3{color:#ffd54f;}
+
+</style></head><body><div class="overlay"></div>
+<nav><a href="#about">About Me</a><a href="#awards">My Awards</a><a href="#hobbies">My Hobbies</a><a href="#trainings">My Trainings</a><a href="#dream">My Dream</a></nav>
+<div class="hero"><div style="margin-bottom:20px;font-size:20px;line-height:1.8;">FB: <a href="https://www.facebook.com/rb.lastinosa" style="color:#4fc3ff;" target="_blank">RB Lastimosa</a><br/>IG: <a href="https://www.instagram.com/_lassstt/" style="color:#ff8ad8;" target="_blank">_lassstt</a></div><h1>RB S. LASTIMOSA</h1><h2>18 Years Old</h2><p>19 October 2007</p><div style="margin-top:40px">▼ SCROLL DOWN ▼</div></div>
+<section id="about"><div class="about hidden"><img src="006 image.jpg"/><div class="aboutText"><h2>About Me</h2><p>Hello! I am <b>RB S. Lastimosa</b>, an 18-year-old student who is passionate about serving others and making a positive difference in the community.<br/><br/>I dream of becoming a member of the Bureau of Fire Protection (BFP), where I can use my skills, discipline, and dedication to help protect lives and property.<br/><br/>I am a well-trained first aider and emergency responder.<br/><br/>I am also a proud member of the University of the Cordilleras Philippine Air Force (UC PAF) ROTC, where I continue to develop leadership, discipline, teamwork, and responsibility.<br/><br/>I believe that with hard work and perseverance I can achieve my dream of becoming a professional public servant.</p></div></div></section>
+<section id="awards"><div class="card hidden"><h2>My Awards</h2><p>My achievements reflect my dedication, discipline, and commitment to personal growth. Through hard work and perseverance, I have reached important milestones during my training in the University of the Cordilleras Philippine Air Force Reserve Officers' Training Corps (UC PAF ROTC). These accomplishments continue to inspire me to improve my skills, strengthen my leadership, and prepare for my future goal of serving the community.<br/><br/><b>Cadet Officer Candidate Course (COCC)</b><br/><br/>As a member of the UC PAF ROTC, I successfully completed the Cadet Officer Candidate Course (COCC) on February 22, 2026. This training developed my leadership, discipline, teamwork, and sense of responsibility.<br/><br/><b>Physical Fitness Test Achievement</b><br/><br/>I was recognized as the Top 2 Third Class Male Cadet in the UC PAF ROTC Physical Fitness Test, earning an overall score of 87%.</p><div class="awards-images"><img src="0011 image.jpg"/><img src="image 008.jpg"/></div></div></section>
+<section id="hobbies">
+<div class="card hidden">
+<h2>My Hobbies</h2>
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:30px;">
+<!-- Motorcycle -->
+<div class="hobby-card">
+<a href="motorcycle.html" style="text-decoration:none;color:white;" target="_blank">
+<img alt="" src="0012 image.jpg"/>
+<h3>Motorcycle Rides</h3>
+</a>
+</div>
+<!-- Running -->
+<div class="hobby-card">
+<a href="running.html" style="text-decoration:none;color:white;" target="_blank">
+<img alt="" src="0014 image.jpg"/>
+<h3>Running</h3>
+</a>
+</div>
+<!-- Reading -->
+<div class="hobby-card">
+<a href="reading.html" style="text-decoration:none;color:white;" target="_blank">
+<img alt="" src="0016 image.jpg"/>
+<h3>Reading Books</h3>
+</a>
+</div>
+<!-- Dog -->
+<div class="hobby-card">
+<a href="dogwalk.html" style="text-decoration:none;color:white;" target="_blank">
+<img alt="" src="0013 image.jpg"/>
+<h3>Walk with My Dog</h3>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section id="trainings"><div class="card hidden"><h2>My Trainings</h2><div style="display:flex;flex-wrap:wrap;justify-content:center;gap:30px;"><div class="hobby-card"><a href="basic-first-aid.html" style="text-decoration:none;color:white;" target="_blank"><img src="0010 image.jpg" style="width:220px;height:220px;object-fit:cover;border:4px solid white;border-radius:15px;"/><h3>Basic First Aid Training</h3></a></div><div class="hobby-card"><a href="basic-life-support.html" style="text-decoration:none;color:white;" target="_blank"><img src="0019 image.jpg" style="width:220px;height:220px;object-fit:cover;border:4px solid white;border-radius:15px;"/><h3>Basic Life Support Training</h3></a></div><div class="hobby-card"><a href="advanced-cardiovascular.html" style="text-decoration:none;color:white;" target="_blank"><img src="002 image.jpg" style="width:220px;height:220px;object-fit:cover;border:4px solid white;border-radius:15px;"/><h3>Advance Cardiovascular Training</h3></a></div><div class="hobby-card"><a href="emergency-response.html" style="text-decoration:none;color:white;" target="_blank"><img src="0018 image.jpg" style="width:220px;height:220px;object-fit:cover;border:4px solid white;border-radius:15px;"/><h3>Emergency Response Training</h3></a></div><div class="hobby-card"><a href="fire-safety.html" style="text-decoration:none;color:white;" target="_blank"><img src="FR 1.jpg" style="width:220px;height:220px;object-fit:cover;border:4px solid white;border-radius:15px;"/><h3>Fire Safety Training</h3></a></div><div class="hobby-card"><a href="uc-paf-rotc.html" style="text-decoration:none;color:white;" target="_blank"><img src="001 Image.jpg" style="width:220px;height:220px;object-fit:cover;border:4px solid white;border-radius:15px;"/><h3>UC PAF ROTC Training</h3></a></div></div></div></section>
+<section id="dream">
+<div class="card hidden">
+<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:40px;">
+<!-- Dream Text -->
+<div style="flex:1;min-width:320px;">
+<h2>My Dream</h2>
+<p>
+                    My greatest dream is to become a member of the Bureau of Fire Protection (BFP) and dedicate my life to serving the Filipino people with honor, courage, and integrity. I aspire to protect lives and property while providing hope and assistance to those in need, especially during emergencies, fires, and natural disasters.
+
+                    <br/><br/>
+
+                    I want to be someone who people can rely on in their most difficult moments, offering not only rescue and protection but also compassion and support. Through discipline, continuous learning, and determination, I am committed to preparing myself for the responsibilities of becoming a future BFP personnel and making a positive difference in the lives of others by serving my community and helping people during times of disaster.
+                </p>
+</div>
+<!-- Dream Image -->
+<div style="flex:0 0 360px;text-align:center;">
+<img alt="Future BFP" src="RB BFP.png" style="width:100%;max-width:350px;border:4px solid white;border-radius:20px;box-shadow:0 0 25px rgba(255,255,255,.5);transition:.4s;"/>
+</div>
+</div>
+</div>
+</section>
+<footer>© 2026 RB S. Lastimosa</footer>
+<script>
+const o=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('show')}));
+document.querySelectorAll('.hidden').forEach(el=>o.observe(el));
+const t=document.querySelector('#trainings');
+new IntersectionObserver(e=>e.forEach(x=>document.body.classList.toggle('training-bg',x.isIntersecting)),{threshold:.35}).observe(t);
+window.addEventListener("scroll",()=>{if(window.scrollY>100){document.body.classList.add("scrolled")}else{document.body.classList.remove("scrolled")}});
+</script></body></html>
